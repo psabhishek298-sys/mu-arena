@@ -70,6 +70,19 @@ body {
   100% { opacity: 1; transform: scale(1.1); }
 }
 
+@keyframes fall {
+  0% { transform: translateY(-100px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(110vh) rotate(360deg); opacity: 0.8; }
+}
+
+.animate-fall-1 { animation: fall 4s linear infinite; }
+.animate-fall-2 { animation: fall 5.5s linear infinite; animation-delay: -2s; }
+.animate-fall-3 { animation: fall 4.8s linear infinite; animation-delay: -1s; }
+.animate-fall-4 { animation: fall 6.2s linear infinite; animation-delay: -3.5s; }
+.animate-fall-5 { animation: fall 5s linear infinite; animation-delay: -2.5s; }
+.animate-fall-6 { animation: fall 4.5s linear infinite; animation-delay: -1.5s; }
+
+
 .glass-panel {
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
