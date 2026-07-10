@@ -205,12 +205,12 @@ export default function Leaderboard() {
         </div>
 
         <h1 className="text-5xl md:text-[5.5rem] font-black mb-6 tracking-tight leading-none">
-          <span className="text-white drop-shadow-md">Hall of </span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-rose-500 drop-shadow-sm">Fame</span>
+          <span className="text-white drop-shadow-md">μ</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-rose-500 drop-shadow-sm"> ARENA</span>
         </h1>
 
         <p className="text-slate-400 text-base md:text-xl max-w-2xl mx-auto font-light">
-          Witness the clash of titans. Top performers defining excellence this season.
+          Muarena Leaderboard is a real-time competitive ranking system for tournaments
         </p>
       </div>
 
