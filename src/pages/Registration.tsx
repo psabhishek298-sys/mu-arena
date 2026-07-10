@@ -204,11 +204,15 @@ export default function Registration() {
                   className="w-full bg-black/30 border border-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-colors appearance-none"
                 >
                   <option value="" disabled>Select Department</option>
-                  <option value="Computer Science">Computer Science</option>
-                  <option value="Commerce">Commerce</option>
-                  <option value="Physics">Physics</option>
+                  <option value="BCA">BCA</option>
+                  <option value="Bcom finance">Bcom finance</option>
+                  <option value="Bcom corparation">Bcom corparation</option>
                   <option value="English">English</option>
-                  <option value="Mathematics">Mathematics</option>
+                  <option value="BBA">BBA</option>
+                  <option value="Food Tecnolagy">Food Tecnolagy</option>
+                  <option value="Botany">Botany</option>
+                  <option value="Zoology">Zoology</option>
+                  <option value="Physiscs">Physiscs</option>                 
                 </select>
               </div>
 
@@ -224,7 +228,7 @@ export default function Registration() {
                   <option value="First Year">First Year</option>
                   <option value="Second Year">Second Year</option>
                   <option value="Third Year">Third Year</option>
-                  <option value="Fourth Year">Fourth Year</option>
+                  <option value="PG">PG</option>
                 </select>
               </div>
             </div>
