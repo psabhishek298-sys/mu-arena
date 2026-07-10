@@ -334,10 +334,10 @@ export default function Leaderboard() {
                 {/* Info */}
                 <div className="flex-grow min-w-0">
                   <h3 className="font-bold text-base md:text-lg text-slate-200 truncate group-hover:text-white transition-colors">{team.team_name}</h3>
-                  <div className="flex items-center gap-2 mt-0.5">
-                    <span className="text-xs md:text-sm text-slate-500 truncate">{team.department}</span>
-                    <span className="w-1 h-1 rounded-full bg-slate-700 flex-shrink-0"></span>
-                    <span className="text-xs md:text-sm text-slate-500 truncate">{team.academic_year}</span>
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-0.5 sm:gap-2 mt-1">
+                    <span className="text-xs md:text-sm text-slate-500 leading-tight">{team.department}</span>
+                    <span className="w-1 h-1 rounded-full bg-slate-700 flex-shrink-0 hidden sm:block"></span>
+                    <span className="text-xs md:text-sm text-slate-500 leading-tight opacity-80 sm:opacity-100">{team.academic_year}</span>
                   </div>
                 </div>
 
