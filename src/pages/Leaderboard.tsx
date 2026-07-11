@@ -162,21 +162,21 @@ export default function Leaderboard() {
     <div ref={containerRef} className="min-h-screen bg-[#090B14] text-slate-200 py-12 px-4 sm:px-6 lg:px-8 font-sans overflow-x-hidden relative selection:bg-purple-500/30">
 
       {/* Confetti Particles */}
-      <div className="fixed top-[-100px] left-[10%] w-3 h-8 bg-blue-600 rounded-sm rotate-45 opacity-80 z-0 hidden md:block animate-fall-1"></div>
-      <div className="fixed top-[-100px] right-[20%] w-4 h-4 bg-yellow-500 rounded-sm -rotate-12 opacity-90 z-0 hidden md:block animate-fall-2"></div>
-      <div className="fixed top-[-100px] left-[25%] w-3 h-3 bg-purple-500 rounded-sm rotate-12 opacity-60 z-0 hidden md:block animate-fall-3"></div>
-      <div className="fixed top-[-100px] right-[15%] w-3 h-10 bg-pink-600 rounded-sm rotate-45 opacity-80 z-0 hidden md:block animate-fall-4"></div>
-      <div className="fixed top-[-100px] right-[5%] w-4 h-4 bg-purple-600 rounded-full opacity-60 z-0 hidden md:block animate-fall-5"></div>
-      <div className="fixed top-[-100px] left-[5%] w-2 h-2 bg-pink-400 rounded-full opacity-80 z-0 hidden md:block animate-fall-6"></div>
-      <div className="fixed top-[-100px] left-[40%] w-2 h-6 bg-green-500 rounded-sm rotate-45 opacity-70 z-0 hidden md:block animate-fall-2"></div>
-      <div className="fixed top-[-100px] right-[40%] w-3 h-3 bg-cyan-400 rounded-full opacity-70 z-0 hidden md:block animate-fall-3"></div>
-      <div className="fixed top-[-100px] left-[60%] w-4 h-4 bg-orange-500 rounded-sm rotate-12 opacity-80 z-0 hidden md:block animate-fall-1"></div>
-      <div className="fixed top-[-100px] right-[30%] w-2 h-8 bg-red-500 rounded-sm -rotate-45 opacity-75 z-0 hidden md:block animate-fall-6"></div>
-      <div className="fixed top-[-100px] left-[75%] w-3 h-3 bg-teal-400 rounded-full opacity-65 z-0 hidden md:block animate-fall-4"></div>
-      <div className="fixed top-[-100px] right-[60%] w-3 h-10 bg-indigo-500 rounded-sm rotate-12 opacity-85 z-0 hidden md:block animate-fall-5"></div>
-      <div className="fixed top-[-100px] left-[85%] w-4 h-4 bg-yellow-400 rounded-sm rotate-45 opacity-90 z-0 hidden md:block animate-fall-2"></div>
-      <div className="fixed top-[-100px] right-[75%] w-2 h-2 bg-rose-400 rounded-full opacity-80 z-0 hidden md:block animate-fall-1"></div>
-      <div className="fixed top-[-100px] left-[30%] w-3 h-6 bg-blue-400 rounded-sm -rotate-12 opacity-70 z-0 hidden md:block animate-fall-5"></div>
+      <div className="fixed top-[-100px] left-[10%] w-3 h-8 bg-blue-600 rounded-sm rotate-45 opacity-80 z-0 animate-fall-1"></div>
+      <div className="fixed top-[-100px] right-[20%] w-4 h-4 bg-yellow-500 rounded-sm -rotate-12 opacity-90 z-0 animate-fall-2"></div>
+      <div className="fixed top-[-100px] left-[25%] w-3 h-3 bg-purple-500 rounded-sm rotate-12 opacity-60 z-0 animate-fall-3"></div>
+      <div className="fixed top-[-100px] right-[15%] w-3 h-10 bg-pink-600 rounded-sm rotate-45 opacity-80 z-0 animate-fall-4"></div>
+      <div className="fixed top-[-100px] right-[5%] w-4 h-4 bg-purple-600 rounded-full opacity-60 z-0 animate-fall-5"></div>
+      <div className="fixed top-[-100px] left-[5%] w-2 h-2 bg-pink-400 rounded-full opacity-80 z-0 animate-fall-6"></div>
+      <div className="fixed top-[-100px] left-[40%] w-2 h-6 bg-green-500 rounded-sm rotate-45 opacity-70 z-0 animate-fall-2"></div>
+      <div className="fixed top-[-100px] right-[40%] w-3 h-3 bg-cyan-400 rounded-full opacity-70 z-0 animate-fall-3"></div>
+      <div className="fixed top-[-100px] left-[60%] w-4 h-4 bg-orange-500 rounded-sm rotate-12 opacity-80 z-0 animate-fall-1"></div>
+      <div className="fixed top-[-100px] right-[30%] w-2 h-8 bg-red-500 rounded-sm -rotate-45 opacity-75 z-0 animate-fall-6"></div>
+      <div className="fixed top-[-100px] left-[75%] w-3 h-3 bg-teal-400 rounded-full opacity-65 z-0 animate-fall-4"></div>
+      <div className="fixed top-[-100px] right-[60%] w-3 h-10 bg-indigo-500 rounded-sm rotate-12 opacity-85 z-0 animate-fall-5"></div>
+      <div className="fixed top-[-100px] left-[85%] w-4 h-4 bg-yellow-400 rounded-sm rotate-45 opacity-90 z-0 animate-fall-2"></div>
+      <div className="fixed top-[-100px] right-[75%] w-2 h-2 bg-rose-400 rounded-full opacity-80 z-0 animate-fall-1"></div>
+      <div className="fixed top-[-100px] left-[30%] w-3 h-6 bg-blue-400 rounded-sm -rotate-12 opacity-70 z-0 animate-fall-5"></div>
 
       {/* Top Bar - Register Button */}
       <div className="absolute top-6 right-6 md:top-10 md:right-10 z-50">
