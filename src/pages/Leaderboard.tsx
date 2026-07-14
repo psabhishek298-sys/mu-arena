@@ -210,7 +210,8 @@ export default function Leaderboard() {
         </h1>
 
         <p className="text-slate-400 text-base md:text-xl max-w-2xl mx-auto font-light">
-          Muarena Leaderboard is a real-time competitive ranking system for tournaments
+          Muarena Leaderboard is a real-time competitive ranking system for tournaments 
+              
         </p>
       </div>
 
@@ -224,7 +225,7 @@ export default function Leaderboard() {
               const isSecond = team.rank === 2;
               const isThird = team.rank === 3;
 
-              let heightClass = 'h-[280px] md:h-[300px]';
+              let heightClass = 'h-[320px] md:h-[340px]';
               let widthClass = 'w-[140px] sm:w-44 md:w-56';
               let cardBorder = 'border-white/5';
               let cardBg = 'bg-white/[0.02]';
@@ -287,7 +288,8 @@ export default function Leaderboard() {
 
                     <div className="flex flex-col items-center w-full mt-auto">
                       <h3 className="font-bold text-sm md:text-lg text-center w-[95%] text-white/90 mb-1 leading-tight line-clamp-2 px-1 break-words">{team.team_name}</h3>
-                      <p className="text-[10px] md:text-sm text-slate-500 truncate w-full text-center mb-4 px-1">{team.department}</p>
+                      <p className="text-[10px] md:text-sm text-slate-500 truncate w-full text-center px-1">{team.department}</p>
+                      <p className="text-[9px] md:text-xs text-slate-600 truncate w-full text-center mb-4 px-1">{team.academic_year}</p>
 
                       <div className={`font-black text-4xl md:text-5xl tracking-tighter ${colorClass} drop-shadow-md leading-none`}>
                         {team.points}
